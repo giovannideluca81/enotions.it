@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enotions — Emozioni del Vino</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --cream:   #f5f0e8;
+      --parchment: #ede4d3;
+      --wine:    #6b1a2a;
+      --wine-deep: #3f0e18;
+      --gold:    #b8924a;
+      --gold-light: #d4aa6a;
+      --ink:     #1c1410;
+      --muted:   #7a6a5a;
+      --border:  #c9b99a;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--cream);
+      color: var(--ink);
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 18px;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    /* ── NOISE TEXTURE OVERLAY ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+      pointer-events: none;
+      z-index: 9999;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 3rem;
+      height: 64px;
+      background: var(--cream);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(6px);
+    }
+    .nav-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--wine);
+      text-decoration: none;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+    .nav-links a {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 300;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .nav-links a:hover { color: var(--wine); }
+
+    /* ── HERO ── */
+    .hero {
+      margin-top: 64px;
+      min-height: 92vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-left {
+      background: var(--wine-deep);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 5rem 4rem;
+      position: relative;
+    }
+    .hero-left::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 40%;
+      background: linear-gradient(to bottom, rgba(63,14,24,0.0), rgba(63,14,24,0.9));
+      pointer-events: none;
+      transform: rotate(180deg);
+    }
+    .hero-eyebrow {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 400;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 1.2rem;
+      position: relative; z-index: 1;
+    }
+    .hero-title {
+      font-size: clamp(2.6rem, 4vw, 4.2rem);
+      font-weight: 300;
+      line-height: 1.15;
+      color: var(--cream);
+      font-style: italic;
+      margin-bottom: 1.8rem;
+      position: relative; z-index: 1;
+    }
+    .hero-meta {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      position: relative; z-index: 1;
+    }
+    .hero-right {
+      background: var(--parchment);
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+    }
+    .hero-secondary {
+      padding: 3.5rem 3rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .hero-secondary:hover { background: #e8dfc8; }
+    .hero-secondary h3 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      font-style: italic;
+      color: var(--ink);
+      margin-bottom: 0.6rem;
+      line-height: 1.3;
+    }
+    .hero-secondary p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-weight: 300;
+    }
+    .hero-secondary .tag {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.8rem;
+    }
+
+    /* ── DIVIDER ORNAMENT ── */
+    .ornament {
+      text-align: center;
+      padding: 3rem 0 1.5rem;
+      color: var(--gold);
+      font-size: 1.2rem;
+      letter-spacing: 1.5rem;
+      opacity: 0.6;
+    }
+
+    /* ── SECTION HEADER ── */
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      padding: 0 4rem;
+      margin-bottom: 2.5rem;
+    }
+    .section-header h2 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 400;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--wine);
+      white-space: nowrap;
+    }
+    .section-header::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* ── CARDS GRID ── */
+    .cards-section { padding: 2rem 4rem 5rem; }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-4px); }
+    .card-img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      background: var(--parchment);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 1.2rem;
+    }
+    .card-img svg { opacity: 0.15; }
+    .card-img-label {
+      position: absolute;
+      bottom: 0.8rem; left: 0.8rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.58rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--wine);
+      background: rgba(245,240,232,0.88);
+      padding: 0.3rem 0.7rem;
+    }
+    .card-tag {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+    .card h3 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.35;
+      color: var(--ink);
+      margin-bottom: 0.6rem;
+    }
+    .card p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      font-weight: 300;
+      flex: 1;
+    }
+    .card-footer {
+      margin-top: 1rem;
+      padding-top: 0.8rem;
+      border-top: 1px solid var(--border);
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* ── FEATURED STRIP ── */
+    .featured-strip {
+      background: var(--wine);
+      padding: 4rem 4rem;
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+    .featured-strip h2 {
+      font-size: clamp(2rem, 3vw, 3.2rem);
+      font-weight: 300;
+      font-style: italic;
+      color: var(--cream);
+      line-height: 1.2;
+      margin-bottom: 1.2rem;
+    }
+    .featured-strip p {
+      font-size: 1rem;
+      color: rgba(245,240,232,0.7);
+      font-weight: 300;
+      margin-bottom: 1.8rem;
+    }
+    .btn {
+      display: inline-block;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      padding: 0.85rem 2rem;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      text-decoration: none;
+      transition: all 0.3s;
+      cursor: pointer;
+      background: transparent;
+    }
+    .btn:hover { background: var(--gold); color: var(--wine-deep); }
+    .featured-meta { color: rgba(245,240,232,0.4); }
+    .featured-meta .eyebrow {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      display: block;
+      margin-bottom: 2rem;
+    }
+    .wine-stat {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(184,146,74,0.25);
+    }
+    .wine-stat:last-child { border-bottom: none; }
+    .wine-stat-label {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.3rem;
+    }
+    .wine-stat-value {
+      font-size: 1.05rem;
+      color: var(--cream);
+    }
+    .wine-bar {
+      margin-top: 0.4rem;
+      height: 2px;
+      background: rgba(184,146,74,0.2);
+      border-radius: 1px;
+      overflow: hidden;
+    }
+    .wine-bar-fill {
+      height: 100%;
+      background: var(--gold);
+      border-radius: 1px;
+      transform-origin: left;
+      animation: barGrow 1.2s ease forwards;
+    }
+    @keyframes barGrow {
+      from { transform: scaleX(0); }
+      to   { transform: scaleX(1); }
+    }
+
+    /* ── NEWSLETTER ── */
+    .newsletter {
+      padding: 5rem 4rem;
+      text-align: center;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      background: var(--parchment);
+    }
+    .newsletter .eyebrow {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .newsletter h2 {
+      font-size: 2.6rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--wine-deep);
+      margin-bottom: 0.6rem;
+    }
+    .newsletter p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 2.2rem;
+    }
+    .nl-form {
+      display: flex;
+      justify-content: center;
+      gap: 0;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .nl-form input {
+      flex: 1;
+      padding: 0.85rem 1.2rem;
+      border: 1px solid var(--border);
+      border-right: none;
+      background: var(--cream);
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      color: var(--ink);
+      outline: none;
+    }
+    .nl-form input:focus { border-color: var(--wine); }
+    .nl-form button {
+      padding: 0.85rem 1.8rem;
+      background: var(--wine);
+      border: 1px solid var(--wine);
+      color: var(--cream);
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.65rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .nl-form button:hover { background: var(--wine-deep); }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 3.5rem 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid var(--border);
+    }
+    .footer-brand {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--wine);
+    }
+    .footer-copy {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.15em;
+      color: var(--muted);
+    }
+    .footer-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+    .footer-links a {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .footer-links a:hover { color: var(--wine); }
+
+    /* ── ANIMATIONS ── */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(24px);
+      animation: fadeUp 0.8s ease forwards;
+    }
+    @keyframes fadeUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .delay-1 { animation-delay: 0.15s; }
+    .delay-2 { animation-delay: 0.3s; }
+    .delay-3 { animation-delay: 0.45s; }
+
+    /* ── PLACEHOLDER ART ── */
+    .placeholder-art {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--parchment), #d8cbb5);
+    }
+    .placeholder-hero {
+      width: 100%;
+      height: 100%;
+      min-height: 92vh;
+      background: linear-gradient(160deg, var(--wine-deep) 0%, #7a2035 60%, #3f0e18 100%);
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .placeholder-hero::before {
+      content: '';
+      position: absolute;
+      width: 500px; height: 500px;
+      border-radius: 50%;
+      border: 1px solid rgba(184,146,74,0.12);
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .placeholder-hero::after {
+      content: '';
+      position: absolute;
+      width: 300px; height: 300px;
+      border-radius: 50%;
+      border: 1px solid rgba(184,146,74,0.2);
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .hero-img-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(63,14,24,0.95) 0%, rgba(63,14,24,0.2) 60%);
+    }
+
+    /* SVG grape icon */
+    .icon-wine { width: 60px; height: 60px; opacity: 0.2; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-brand" href="#">Enotions &mdash; Emozioni del Vino</a>
+    <ul class="nav-links">
+      <li><a href="#">Vini</a></li>
+      <li><a href="#">Cucina</a></li>
+      <li><a href="#">Abbinamenti</a></li>
+      <li><a href="#">Cantine</a></li>
+      <li><a href="#">Guide</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <!-- LEFT: featured article with placeholder image bg -->
+    <div style="position:relative; overflow:hidden; cursor:pointer;">
+      <div class="placeholder-hero">
+        <div class="hero-img-overlay"></div>
+        <!-- Decorative circle motif -->
+        <svg style="position:absolute;width:260px;height:260px;opacity:0.06;" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="48" fill="none" stroke="#d4aa6a" stroke-width="0.5"/>
+          <circle cx="50" cy="50" r="36" fill="none" stroke="#d4aa6a" stroke-width="0.5"/>
+          <circle cx="50" cy="50" r="24" fill="none" stroke="#d4aa6a" stroke-width="0.5"/>
+        </svg>
+      </div>
+      <div class="hero-left" style="position:absolute;bottom:0;left:0;right:0;background:transparent;">
+        <span class="hero-eyebrow fade-up">In Evidenza · Autunno 2025</span>
+        <h1 class="hero-title fade-up delay-1">Il Barolo e la<br/>lenta pazienza<br/>della terra</h1>
+        <span class="hero-meta fade-up delay-2">Di Marco Ferrante &nbsp;·&nbsp; 12 min di lettura</span>
+      </div>
+    </div>
+
+    <!-- RIGHT: two secondary articles -->
+    <div class="hero-right">
+      <div class="hero-secondary">
+        <span class="tag">Abbinamenti</span>
+        <h3>Tartufo bianco e Borgogna: un dialogo tra terroir</h3>
+        <p>Quando il profumo della terra incontra l'eleganza di un Premier Cru. Una serata da non dimenticare.</p>
+      </div>
+      <div class="hero-secondary">
+        <span class="tag">Cucina</span>
+        <h3>Risotto al Barolo: la ricetta che rispetta il vino</h3>
+        <p>Non tutti i risotti al vino rosso sono uguali. Il segreto sta nella scelta e nel rispetto dell'ingrediente.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTICLES SECTION -->
+  <div class="ornament">— ✦ —</div>
+
+  <div class="section-header">
+    <h2>Ultime Uscite</h2>
+  </div>
+
+  <section class="cards-section">
+    <div class="cards-grid">
+
+      <article class="card fade-up">
+        <div class="card-img">
+          <div class="placeholder-art">
+            <svg class="icon-wine" viewBox="0 0 64 64" fill="none">
+              <path d="M32 8 C20 8 14 22 14 30 C14 40 20 48 32 52 C44 48 50 40 50 30 C50 22 44 8 32 8Z" stroke="#6b1a2a" stroke-width="1.5" fill="none"/>
+              <circle cx="32" cy="28" r="6" stroke="#6b1a2a" stroke-width="1.5" fill="none"/>
+              <path d="M32 52 L32 58" stroke="#6b1a2a" stroke-width="1.5"/>
+              <path d="M24 58 L40 58" stroke="#6b1a2a" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <span class="card-img-label">Degustazione</span>
+        </div>
+        <span class="card-tag">Vini · Toscana</span>
+        <h3>Brunello di Montalcino 2018: l'annata che ha sorpreso tutti</h3>
+        <p>Una verticale di tre produttori rivela come il caldo estivo abbia plasmato strutture inaspettate e complessità aromatica straordinaria.</p>
+        <div class="card-footer">
+          <span>Giulia Romani</span>
+          <span>8 min</span>
+        </div>
+      </article>
+
+      <article class="card fade-up delay-1">
+        <div class="card-img">
+          <div class="placeholder-art" style="background: linear-gradient(135deg, #e8dfc8, #c9b99a);">
+            <svg class="icon-wine" viewBox="0 0 64 64" fill="none">
+              <path d="M20 12 L44 12 L40 38 C40 44 36 50 32 50 C28 50 24 44 24 38Z" stroke="#6b1a2a" stroke-width="1.5" fill="none"/>
+              <path d="M24 24 L40 24" stroke="#6b1a2a" stroke-width="1"/>
+              <path d="M32 50 L32 56" stroke="#6b1a2a" stroke-width="1.5"/>
+              <path d="M26 56 L38 56" stroke="#6b1a2a" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <span class="card-img-label">Ricetta</span>
+        </div>
+        <span class="card-tag">Cucina · Tradizione</span>
+        <h3>Ossobuco alla milanese: la ricetta della nonna non mente</h3>
+        <p>Gremolada, midollo e risotto giallo. Un piatto che racconta secoli di cucina lombarda e richiede il rispetto della lentezza.</p>
+        <div class="card-footer">
+          <span>Luca Bianchi</span>
+          <span>6 min</span>
+        </div>
+      </article>
+
+      <article class="card fade-up delay-2">
+        <div class="card-img">
+          <div class="placeholder-art" style="background: linear-gradient(135deg, #d4c4a0, #b8a880);">
+            <svg class="icon-wine" viewBox="0 0 64 64" fill="none">
+              <rect x="18" y="20" width="28" height="32" rx="2" stroke="#6b1a2a" stroke-width="1.5" fill="none"/>
+              <path d="M24 20 L24 16 C24 13 28 12 32 12 C36 12 40 13 40 16 L40 20" stroke="#6b1a2a" stroke-width="1.5" fill="none"/>
+              <path d="M24 32 L40 32" stroke="#6b1a2a" stroke-width="1"/>
+              <circle cx="32" cy="38" r="3" stroke="#6b1a2a" stroke-width="1" fill="none"/>
+            </svg>
+          </div>
+          <span class="card-img-label">Guida</span>
+        </div>
+        <span class="card-tag">Cantina · Friuli</span>
+        <h3>Friuli Colli Orientali: il territorio del vino che non ti aspetti</h3>
+        <p>Ribolla Gialla, Friulano, Picolit. Un viaggio tra le colline dove l'artigianalità incontra un'identità vinicola unica in Italia.</p>
+        <div class="card-footer">
+          <span>Sara Moretti</span>
+          <span>10 min</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- FEATURED WINE STRIP -->
+  <section class="featured-strip">
+    <div>
+      <span style="font-family:'Josefin Sans';font-size:0.6rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold-light);display:block;margin-bottom:1rem;">Vino del Mese</span>
+      <h2>Amarone della Valpolicella Classico — Bertani 2015</h2>
+      <p>Un vino che non ha bisogno di presentazioni, ma merita ogni parola. Corposo, longevo, capace di invecchiare con eleganza per decenni. Lo abbiamo degustato in anteprima.</p>
+      <button class="btn">Leggi la Scheda</button>
+    </div>
+    <div class="featured-meta">
+      <span class="eyebrow">Scheda Tecnica</span>
+      <div class="wine-stat">
+        <div class="wine-stat-label">Uvaggio</div>
+        <div class="wine-stat-value">Corvina 70%, Rondinella 25%, Molinara 5%</div>
+      </div>
+      <div class="wine-stat">
+        <div class="wine-stat-label">Struttura</div>
+        <div class="wine-stat-value">Piena · Tannica · Persistente</div>
+        <div class="wine-bar"><div class="wine-bar-fill" style="width:88%"></div></div>
+      </div>
+      <div class="wine-stat">
+        <div class="wine-stat-label">Abbinamento ideale</div>
+        <div class="wine-stat-value">Brasato, selvaggina, formaggi stagionati</div>
+      </div>
+      <div class="wine-stat">
+        <div class="wine-stat-label">Potenziale d'invecchiamento</div>
+        <div class="wine-stat-value">20–30 anni</div>
+        <div class="wine-bar"><div class="wine-bar-fill" style="width:95%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECOND ROW ARTICLES -->
+  <div style="margin-top:5rem;">
+    <div class="section-header">
+      <h2>Abbinamenti &amp; Territorio</h2>
+    </div>
+    <section class="cards-section" style="padding-top:0;">
+      <div class="cards-grid">
+
+        <article class="card">
+          <div class="card-img">
+            <div class="placeholder-art" style="background: linear-gradient(135deg, #d0c4b0, #b8a48a);">
+              <svg class="icon-wine" viewBox="0 0 64 64" fill="none">
+                <path d="M16 48 C16 36 20 28 32 20 C44 28 48 36 48 48" stroke="#6b1a2a" stroke-width="1.5" fill="none"/>
+                <path d="M32 20 L32 12" stroke="#6b1a2a" stroke-width="1.5"/>
+                <circle cx="32" cy="10" r="2" stroke="#6b1a2a" stroke-width="1" fill="none"/>
+                <path d="M20 48 L44 48" stroke="#6b1a2a" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <span class="card-img-label">Abbinamento</span>
+          </div>
+          <span class="card-tag">Champagne · Francia</span>
+          <h3>Champagne e crostacei: perché funziona sempre</h3>
+          <p>L'acidità, le bollicine, la mineralità. Tre ragioni fisiche e sensoriali per un abbinamento che attraversa i secoli.</p>
+          <div class="card-footer">
+            <span>Elena Fusco</span>
+            <span>5 min</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img">
+            <div class="placeholder-art" style="background:linear-gradient(135deg,#e2d5bc,#c8b898);">
+              <svg class="icon-wine" viewBox="0 0 64 64" fill="none">
+                <ellipse cx="32" cy="44" rx="18" ry="8" stroke="#6b1a2a" stroke-width="1.5" fill="none"/>
+                <path d="M14 44 L14 32 C14 20 26 14 32 14 C38 14 50 20 50 32 L50 44" stroke="#6b1a2a" stroke-width="1.5" fill="none"/>
+                <path d="M22 30 C26 26 38 26 42 30" stroke="#6b1a2a" stroke-width="1" fill="none"/>
+              </svg>
+            </div>
+            <span class="card-img-label">Intervista</span>
+          </div>
+          <span class="card-tag">Produttori · Sicilia</span>
+          <h3>Nerello Mascalese sull'Etna: parola al produttore</h3>
+          <p>Abbiamo incontrato Salvo Foti sulle pendici del vulcano. Ci ha raccontato cosa significa fare vino dove la terra respira ancora.</p>
+          <div class="card-footer">
+            <span>Redazione</span>
+            <span>9 min</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-img">
+            <div class="placeholder-art" style="background:linear-gradient(135deg,#cfc0a0,#b0a080);">
+              <svg class="icon-wine" viewBox="0 0 64 64" fill="none">
+                <path d="M24 52 L24 28 C24 20 28 14 32 14 C36 14 40 20 40 28 L40 52" stroke="#6b1a2a" stroke-width="1.5" fill="none"/>
+                <path d="M24 36 L40 36" stroke="#6b1a2a" stroke-width="1"/>
+                <path d="M18 52 L46 52" stroke="#6b1a2a" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <span class="card-img-label">Tendenze</span>
+          </div>
+          <span class="card-tag">Naturale · Tendenze</span>
+          <h3>Vini naturali: moda passeggera o ritorno alle origini?</h3>
+          <p>I numeri dicono che crescono. Ma cosa si nasconde davvero dietro un'etichetta senza solfiti e senza filtrazione? Un'analisi senza ideologie.</p>
+          <div class="card-footer">
+            <span>Andrea Conti</span>
+            <span>7 min</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <p class="eyebrow">La Nostra Newsletter</p>
+    <h2>Il vino migliore<br/>arriva ogni venerdì</h2>
+    <p>Selezioni, abbinamenti e cantine da scoprire. Direttamente nella tua casella di posta.</p>
+    <div class="nl-form">
+      <input type="email" placeholder="La tua email..." />
+      <button type="button">Iscriviti</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-brand">Enotions &mdash; Emozioni del Vino</span>
+    <ul class="footer-links">
+      <li><a href="#">Chi siamo</a></li>
+      <li><a href="#">Collabora</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Contatti</a></li>
+    </ul>
+    <span class="footer-copy">© 2025 Enotions — Tutti i diritti riservati</span>
+  </footer>
+
+</body>
+</html>
