@@ -1,0 +1,838 @@
+[
+  {
+    "slug": "sangiovese-purosangue",
+    "title": "Aspettando Sangiovese Purosangue",
+    "category": "Degustazioni",
+    "subcategory": "Toscana",
+    "excerpt": "Sei espressioni marcatamente territoriali di un vitigno scalpitante: dal Chianti Classico al Brunello di Montalcino, una serata indimenticabile.",
+    "readTime": 7,
+    "image": "vineyard",
+    "featured": true,
+    "body": [
+      {
+        "tag": "p",
+        "text": "Informale ed efficace, l'evento \"Aspettando Sangiovese Purosangue\" ci ha permesso di degustare sei espressioni marcatamente territoriali di questo scalpitante vitigno."
+      },
+      {
+        "tag": "h3",
+        "text": "Podere Castellinuzza — Chianti Classico DOCG 2014"
+      },
+      {
+        "tag": "p",
+        "text": "Prodotto con soli Sangiovese e Canaiolo, affina per un anno in cemento. Il colore è un bel rubino scarico perfettamente limpido. Al naso immediatamente spicca la ciliegia fresca e la rosa, seguiti da una elegante speziatura e sentori di erbe aromatiche. La bevuta è fresca, il tannino è presente ma delicato. La media struttura e la freschezza ben presente lo rendono perfetto per l'abbinamento al pecorino fresco ."
+      },
+      {
+        "tag": "h3",
+        "text": "Rossobruno — IGT Toscana 2014, Le Verzure"
+      },
+      {
+        "tag": "p",
+        "text": "Sangiovese grosso piantato in una zona che guarda le colline di Montalcino. Affinato 18 mesi in botti grandi e sei in bottiglia, fermentato con soli lieviti indigeni. I sentori di ciliegia, mandorla, cuoio e tabacco sono accompagnati da una speziatura di pepe bianco. La grande piacevolezza gustativa farebbe sperare in una maggiore persistenza. Abbinamento perfetto: filetto di maiale."
+      },
+      {
+        "tag": "h3",
+        "text": "Rosso di Montalcino \"Ignaccio\" 2016, Il Marroneto"
+      },
+      {
+        "tag": "p",
+        "text": "Sangiovese grosso in purezza. Al naso è decisamente fruttato. L'impatto iniziale al gusto è tannico, con un tannino ben levigato, il finale è fresco. Decisamente persistente. Il nome deriva dal modo in cui il figlio del produttore diceva di voler essere preso in braccio. Abbinamento consigliato: pici al ragù."
+      },
+      {
+        "tag": "h3",
+        "text": "Brunello di Montalcino 2014, Il Marroneto"
+      },
+      {
+        "tag": "p",
+        "text": "Bel colore granato scarico, molto limpido e decisamente elegante. Al naso si percepiscono una nota eterea e sentori di tabacco, spezia dolce, per arrivare a un profumo ferroso, quasi ematico. All'assaggio il vino è decisamente tannico, molto fine. Ottimo con preparazioni di carne anche complesse."
+      },
+      {
+        "tag": "h3",
+        "text": "Chianti Classico Riserva 2015, Capannelle"
+      },
+      {
+        "tag": "p",
+        "text": "Note di sottobosco, more, liquirizia e vaniglia. Il gusto inizialmente tannico lascia spazio a un finale sapido e delicatamente ammandorlato. Il tannino non ancora perfettamente levigato lascia intravedere un buon potenziale evolutivo."
+      },
+      {
+        "tag": "h3",
+        "text": "Chianti Classico Gran Selezione 2016 \"Bibbiano Vigna del Capannino\""
+      },
+      {
+        "tag": "p",
+        "text": "Il vino più equilibrato della serata. Prima nota balsamica, seguita da speziatura di pepe nero, nota ematica e sentori di fiori appassiti. All'assaggio parte tannico ma lascia il passo a eleganti sensazioni di calore e morbidezza. Tannino ben levigato e perfettamente integrato. Abbinamento: piatti di carne complessi e speziati, anche selvaggina."
+      }
+    ]
+  },
+  {
+    "slug": "vino-bianco",
+    "title": "Ci facciamo un Bianco?",
+    "category": "Approfondimenti",
+    "subcategory": "Vinificazione",
+    "excerpt": "Il vino bianco si fa con l'uva bianca, il rosso con l'uva nera. Ecco cosa credevo da bambino. Ma la faccenda è ben diversa.",
+    "readTime": 5,
+    "image": "whitewine",
+    "featured": true,
+    "body": [
+      {
+        "tag": "p",
+        "text": "Il vino bianco si fa con l'uva bianca, il rosso con l'uva nera ed il rosato mescolando le due uve. Ecco cosa credevo quando ero un bambino! Ma ora che sono cresciuto so che la faccenda è ben diversa anche se non del tutto sbagliata."
+      },
+      {
+        "tag": "p",
+        "text": "In realtà il colore è da imputare alle diverse tecniche di vinificazione. Partiamo dalle basi: per fare il vino ci serve l'uva. Ne abbiamo una molteplicità di varietà, ma a grandi linee possiamo dividerle in due categorie, uva bianca o uva nera."
+      },
+      {
+        "tag": "p",
+        "text": "È ovvio che dall'uva bianca potremo ottenere un bianco, ma è possibile ottenerlo anche dall'uva nera? Con grande sorpresa la risposta è sì , anzi — oserei dire che la maggior parte delle volte è ottenuto proprio dall'uva nera. Come è possibile?"
+      },
+      {
+        "tag": "h3",
+        "text": "Le fasi della vinificazione"
+      },
+      {
+        "tag": "p",
+        "text": "Dopo la raccolta tutte le uve sono sottoposte al processo di pigiatura. Dopodiché, se vogliamo ottenere un bianco, si effettua la sgrondatura : la separazione delle vinacce dal mosto. Queste non parteciperanno al processo di elaborazione del vino, impedendone la colorazione rossa e l'acquisizione di corposità. Ecco cosa fa la differenza!"
+      },
+      {
+        "tag": "p",
+        "text": "Seguirà la fase della fermentazione alcolica (a temperatura controllata in genere tra 16° e 22°C), ad opera dei lieviti naturali portati dalla stessa uva o inoculati dall'enologo, che trasformeranno gli zuccheri del mosto in alcol etilico."
+      },
+      {
+        "tag": "p",
+        "text": "A volte, quando si vogliono ottenere bianchi di maggior spessore, si procede a una seconda fermentazione detta malolattica , ad opera di batteri lattici come l' Oenococcus o il Lactobacillus , che trasformano l'acido malico in acido lattico rendendo i vini più morbidi e meno acidi."
+      },
+      {
+        "tag": "p",
+        "text": "Segue quindi l'affinamento con la fase di chiarificazione in cui vengono eliminati per filtrazione i residui solidi e i lieviti. Durante questo periodo si opera anche il cosiddetto bâtonnage : una movimentazione periodica per portare i lieviti in sospensione e favorire il rilascio di mannoproteine che conferiscono struttura, morbidezza e persistenza aromatica."
+      },
+      {
+        "tag": "p",
+        "text": "Finalmente il nostro bianco è pronto per essere imbottigliato. E quando ce lo beviamo? In genere entro tre anni — se no, come diceva la zia: \"A chi aspetti per bertelo, che diventa aceto!?\""
+      }
+    ]
+  },
+  {
+    "slug": "bollicina",
+    "title": "Ci facciamo una Bollicina?",
+    "category": "Approfondimenti",
+    "subcategory": "Vinificazione",
+    "excerpt": "Spumante, Prosecco o Champagne? Metodo Classico o Martinotti? Tutto quello che c'è da sapere sulle bollicine, senza misteri.",
+    "readTime": 6,
+    "image": "bubbles",
+    "featured": true,
+    "body": [
+      {
+        "tag": "p",
+        "text": "Spumante, prosecco o champagne? Questo è il problema! Qual è la differenza? Partiamo dall'inizio: tutti si ottengono da vini selezionati con cura, poi sottoposti a processi biochimici secondo due tecniche differenti: il Metodo Classico (o Champenoise) e il Metodo Martinotti (o Charmat)."
+      },
+      {
+        "tag": "h3",
+        "text": "Millesimato o Cuvée?"
+      },
+      {
+        "tag": "p",
+        "text": "Per creare una \"bollicina\" l'enologo sceglie se usare vini di diverse varietà della stessa annata, creando il cosiddetto millesimato , oppure mescolare anche annate differenti creando la cuvée . Dopodiché si procede a una seconda fermentazione grazie all'aggiunta di zuccheri e lieviti selezionati ( liquore di tiraggio )."
+      },
+      {
+        "tag": "h3",
+        "text": "Metodo Classico"
+      },
+      {
+        "tag": "p",
+        "text": "Se la seconda fermentazione avviene direttamente in bottiglia , si produce uno spumante o uno champagne con Metodo Classico. Le bottiglie vengono costantemente scosse e ruotate per far accumulare i residui verso il tappo ( rémuage ), per poi procedere con la sboccatura . Il vino perso viene rimpiazzato con il liquore di spedizione , miscela segreta che dona le caratteristiche uniche al prodotto. La fermentazione dura da un anno a decine di anni."
+      },
+      {
+        "tag": "h3",
+        "text": "Metodo Martinotti"
+      },
+      {
+        "tag": "p",
+        "text": "La fermentazione in autoclave ha durata molto inferiore, circa sei mesi. Il vantaggio: permette di utilizzare vitigni più aromatici che con il metodo classico perderebbero le loro potenzialità. Il prodotto che se ne ricava è più fresco e meno strutturato."
+      },
+      {
+        "tag": "h3",
+        "text": "E lo Champagne?"
+      },
+      {
+        "tag": "p",
+        "text": "Sostanzialmente non c'è differenza tecnica tra spumante e champagne, se non la zona di produzione (la Champagne, in Francia) e la varietà delle uve. La tecnica è sempre il Metodo Classico — o Champenoise, come ci insegnò Dom Pérignon. A mio modesto parere, a volte gli allievi superano il maestro!"
+      }
+    ]
+  },
+  {
+    "slug": "franco-bernabei",
+    "title": "Una Serata con Franco Bernabei — Mister Sangiovese",
+    "category": "Degustazioni",
+    "subcategory": "Maestri",
+    "excerpt": "Enologo di fama mondiale, padre del Flaccianello della Pieve e del Fontalloro. Una serata di degustazione con il Mister.",
+    "readTime": 10,
+    "image": "winemaker",
+    "featured": true,
+    "body": [
+      {
+        "tag": "p",
+        "text": "Franco Bernabei è un enologo di fama mondiale, noto a molti con il nickname di Mister Sangiovese . Tra le sue creature si contano il Flaccianello della Pieve di Fontodi, il Fontalloro di Fèlsina e il Blucerchiale di Selvapiana. Nasce ad Abano Terme nel 1952, si laurea in Agraria a Padova a soli 22 anni, si trasferisce in Toscana e nel 1978 diventa libero professionista."
+      },
+      {
+        "tag": "h3",
+        "text": "Grancasale 2015 — Verdicchio dei Castelli di Jesi DOCG, Casalfarneto"
+      },
+      {
+        "tag": "p",
+        "text": "Due raccolte: una precoce con criomacerazione, una matura con vinificazione in legno. Giallo paglierino di straordinaria luminosità. Al naso: frutto esotico, ananas, agrumi, fiori bianchi, erbe aromatiche. In bocca equilibrio perfetto tra morbidezza e freschezza, finale sapido quasi di ostrica. Verticale ed armonico. Somiglianza netta con i Chablis."
+      },
+      {
+        "tag": "h3",
+        "text": "Coda di Volpe 2018 — Sannio DOC, Il Poggio"
+      },
+      {
+        "tag": "p",
+        "text": "Vigne fino a 30 anni, forte escursione termica. Giallo paglierino cristallino. Al naso: ginestra, mimosa, melone giallo, mela, cedro. In bocca la prima caratteristica è la sensazione salina con salivazione di cappero e oliva in salamoia. Grande espressione territoriale."
+      },
+      {
+        "tag": "h3",
+        "text": "IGT Toscana Rosso Ugo Contini Bonacossi 2015, Capezzana"
+      },
+      {
+        "tag": "p",
+        "text": "Prima sensazione olfattiva di Amarena Fabbri, poi frutta secca e nera, liquirizia, cuoio, tabacco, speziatura dolce. Una sferzata di succosa acidità esalta il tannino. Sapidità appena percettibile. Retronasali agrumate e ferrose."
+      },
+      {
+        "tag": "h3",
+        "text": "Chianti Rufina Riserva Bucerchiale 2013, Selvapiana"
+      },
+      {
+        "tag": "p",
+        "text": "Rubino scarico con riflessi granati. Nota agrumata di arancia, note tostate e speziate. Freschezza succosa, tannicità ben bilanciata, buona persistenza. Note ematiche e ferrose. Curiosità: storicamente nella vigna veniva piantato del grano per rendere i grappoli naturalmente spargoli."
+      },
+      {
+        "tag": "h3",
+        "text": "Fontalloro 2016 — IGT Toscana Rosso, Fèlsina"
+      },
+      {
+        "tag": "p",
+        "text": "Quattro vigne, quattro terreni diversi, fuori dal Chianti Classico. Il legno è perfettamente integrato. Rubino luminoso e scarico. Prima nota di tabacco e sottobosco, poi frutto fresco dolce e agrumato. I profumi si dipanano lentamente marcando la profonda eleganza. Al gusto tannino in progressione, succosa freschezza."
+      },
+      {
+        "tag": "h3",
+        "text": "Flaccianello 2016 — IGT Toscana Rosso, Fontodi"
+      },
+      {
+        "tag": "p",
+        "text": "La Conca d'Oro di Panzano in Chianti. Parte della fermentazione malolattica in legno, parte in acciaio. Rubino intenso e profondo. Al naso estremamente pulito ed elegante, note di frutto rosso maturo, speziatura, tabacco, liquirizia, balsamicità. Al gusto potente, più tannico che fresco. Persistenza decisa, chilometrica. Ancora grande potenziale evolutivo."
+      },
+      {
+        "tag": "h3",
+        "text": "Cannonau di Sardegna DOC \"Josto Miglior\" 2016, Jerzu"
+      },
+      {
+        "tag": "p",
+        "text": "Vigne tra i 250 e i 700 metri sul livello del mare. Etereo alla prima olfazione, poi prugna e viola, speziatura di pepe, macchia mediterranea. In bocca slanciato e succoso, tutto sull'acidità e su una piacevole sapidità."
+      },
+      {
+        "tag": "h3",
+        "text": "Amarone della Valpolicella 2011, Trabucchi d'Illasi"
+      },
+      {
+        "tag": "p",
+        "text": "Granato dal cuore impenetrabile. Al naso note terrose, sottobosco, fungo, amarena, Mon Cheri, frutta disidratata, carruba, cioccolato. La bocca è potente, caldo, morbido, robusto, sontuoso. La persistenza è decisa, chilometrica. In perfetto equilibrio ma con ancora grande potenziale evolutivo."
+      }
+    ]
+  },
+  {
+    "slug": "vino-rosso",
+    "title": "Ci facciamo un Rosso?",
+    "category": "Approfondimenti",
+    "subcategory": "Vinificazione",
+    "excerpt": "Io voglio un rosso come si comanda, fatto a regola d'arte dal mio amico vigneron che ci mette tutta la passione. Vediamo come si produce.",
+    "readTime": 5,
+    "image": "hero",
+    "body": [
+      {
+        "tag": "p",
+        "text": "Ho sentito parlare dei wine kit, scatole che con polverine, essenze, lieviti e altri ammennicoli permettono di ottenere qualsiasi tipo di vino. Beh — sapete che c'è? Che se lo bevano quelli che le producono. Io voglio un rosso come si comanda fatto a regola d'arte."
+      },
+      {
+        "tag": "h3",
+        "text": "La macerazione: il cuore del vino rosso"
+      },
+      {
+        "tag": "p",
+        "text": "Per ottenere un rosso, dopo la pigiatura, si passa alla fase della macerazione , a temperatura controllata tra i 22° e 30°C, per evitare lo sviluppo di microorganismi indesiderati. Tutta la fase avverrà in presenza delle vinacce — le bucce dell'acino d'uva."
+      },
+      {
+        "tag": "p",
+        "text": "Durante questa fase, che dura variabilmente tra 1 e 3 settimane, i lieviti operano la fermentazione alcolica, trasformando gli zuccheri in alcool. Le vinacce saranno interessate da ripetuti rimescolamenti e affondamenti ( rimontaggi e follature ) nel mosto per favorire il rilascio dei composti tannici, dei fenoli e delle sostanze aromatiche delle bucce. Questo è ciò che dà struttura e il caratteristico colore rosso al vino."
+      },
+      {
+        "tag": "h3",
+        "text": "Fermentazione malolattica e affinamento"
+      },
+      {
+        "tag": "p",
+        "text": "Finita la prima fermentazione si passa alla svinatura : la separazione del fermentato dalle parti solide, che saranno sottoposte a pressatura per recuperare eventuali altri composti utili alla maturazione."
+      },
+      {
+        "tag": "p",
+        "text": "Si arriva dunque alla fermentazione malolattica , in cui specifici batteri anaerobi trasformano l'acido malico in acido lattico, donando maggior stabilità e morbidezza al vino."
+      },
+      {
+        "tag": "p",
+        "text": "Infine, l' affinamento — in genere più lungo rispetto a quello di un bianco — che può avvenire in acciaio o preferibilmente in legno. Il nostro rosso acquisirà stabilizzazione del colore, formazione del bouquet, polimerizzazione dei tannini, arricchimento con sostanze aromatiche quali aldeidi, fenoli, chetoni e lattoni."
+      },
+      {
+        "tag": "p",
+        "text": "Ora non resta che assaggiarlo! Ma la bottiglia la apro subito o aspetto? C'è da studiare gente!"
+      }
+    ]
+  },
+  {
+    "slug": "passito",
+    "title": "Ci facciamo un Passito?",
+    "category": "Approfondimenti",
+    "subcategory": "Vinificazione",
+    "excerpt": "Una barca, un comandante sosia di Braccio di Ferro, e sei litri di passito di Pantelleria. Un incontro che racconta tutto il fascino di questo vino.",
+    "readTime": 5,
+    "image": "grapes",
+    "body": [
+      {
+        "tag": "p",
+        "text": "Qualche anno fa sono stato a Pantelleria. Come ogni buon turista amante del mare ho fatto il giro dell'isola in barca con un mitico comandante — sosia di Braccio di Ferro — e a fine pasto ci fece assaggiare un passito fatto in casa. Non avete idea della poesia che c'era in quel vino!"
+      },
+      {
+        "tag": "p",
+        "text": "Contattato il contadino, acquistai a un prezzo irrisorio sei litri di passito originale. Secondo voi quanto sarà durato una volta tornato a casa? Vi assicuro: ben poco!"
+      },
+      {
+        "tag": "h3",
+        "text": "Cos'è il passito?"
+      },
+      {
+        "tag": "p",
+        "text": "Si tratta di un vino a tutti gli effetti — non un vino fortificato. La vinificazione avviene come per tutti i normali vini bianchi, ma le uve vengono sottoposte a fermentazione solo dopo una sovramaturazione (passitura) che avviene sulle stesse viti o dopo la raccolta."
+      },
+      {
+        "tag": "h3",
+        "text": "Le tecniche di appassimento"
+      },
+      {
+        "tag": "p",
+        "text": "L'appassimento su vite può avvenire per vendemmia tardiva , o per torsione del peduncolo in modo da impedire l'ulteriore afflusso di linfa all'acino, oppure tramite il parassitismo della muffa Botrytis cinerea che disidrata gli acini."
+      },
+      {
+        "tag": "p",
+        "text": "In alternativa l'uva può essere vendemmiata e lasciata appassire su stuoie o graticci al sole, oppure in appassitoi a umidità e temperatura controllata. Un'ulteriore tecnica è l' estrazione a freddo : le uve vengono congelate e poi pressate, garantendo minor contenuto acquoso e maggiore presenza zuccherina."
+      },
+      {
+        "tag": "h3",
+        "text": "Il risultato nel bicchiere"
+      },
+      {
+        "tag": "p",
+        "text": "Tutte le tecniche portano a un comune denominatore: la concentrazione degli zuccheri, degli acidi organici e dei composti aromatici. Il passito si riconosce per la dolcezza, la bassa acidità e il sapore intenso — e si gode meglio in accompagnamento a un buon dolce, sempre a fine pasto."
+      }
+    ]
+  },
+  {
+    "slug": "vini-fortificati",
+    "title": "I Vini Fortificati",
+    "category": "Approfondimenti",
+    "subcategory": "Tipologie",
+    "excerpt": "Madera, Porto, Sherry, Marsala. Vini alcolizzati o vini speciali: un viaggio attraverso i più affascinanti vini liquorosi del mondo.",
+    "readTime": 8,
+    "image": "cellar",
+    "body": [
+      {
+        "tag": "p",
+        "text": "Mai sentito parlare di vini fortificati? Definiti anche vini alcolizzati o vini speciali, sono quei vini che nella fase di produzione sono stati miscelati con altri componenti, ottenendo i più conosciuti vini liquorosi."
+      },
+      {
+        "tag": "p",
+        "text": "Il costume di aggiungere sostanze alcoliche nasce in tempi remoti. Si presume che i commercianti dei primi del '900, per esigenze di conservazione durante il trasporto, avessero adottato l'espediente di aggiungere alcol ai loro vini. Avendo notato che il prodotto ottenuto acquisiva nuovi profumi e sapori, la tecnica andò via via affinandosi."
+      },
+      {
+        "tag": "h3",
+        "text": "Madera"
+      },
+      {
+        "tag": "p",
+        "text": "Il Madera , prodotto nell'omonima isola portoghese, viene addizionato di alcol derivante dalla canna da zucchero e poi sottoposto a sbalzi termici in appositi contenitori in pietra detti stufe . Questi processi, nati per puro caso durante i trasporti marittimi, regalano quattro varietà: Malmsey, Boal, Verdelho e Sercial."
+      },
+      {
+        "tag": "h3",
+        "text": "Porto"
+      },
+      {
+        "tag": "p",
+        "text": "Il Porto , prodotto in Portogallo nella regione del Douro, ha origini leggendarie: i monaci nel 1200 aggiungevano acquavite per conservare il vino. La fermentazione viene interrotta con la fortificazione quando il vino raggiunge circa 7 gradi. Esistono molte varietà: Ruby, Tawny, Vintage, LBV, Colheita e Single Quinta."
+      },
+      {
+        "tag": "h3",
+        "text": "Sherry"
+      },
+      {
+        "tag": "p",
+        "text": "Lo Sherry , caratteristico dell'Andalusia spagnola, nasce nella città di Jerez de la Frontera. La sua peculiarità è la fermentazione in botti ricche di flor , una caratteristica muffa che protegge dall'ossidazione, e il metodo di affinamento soleras : un invecchiamento in tre ordini di botti con travaso progressivo che permette di ottenere sherry invecchiati anche più di 30 anni."
+      },
+      {
+        "tag": "h3",
+        "text": "Marsala"
+      },
+      {
+        "tag": "p",
+        "text": "Infine il Marsala , prodotto nella punta ovest della Sicilia. Le sue origini risalgono alla fine del XVIII secolo, quando commercianti inglesi approdarono a Marsala e, per esigenze di trasporto, unirono al vino acquavite. Le varietà si differenziano per ordine crescente di invecchiamento: Fine, Superiore, Superiore Riserva, Vergine e Vergine Riserva."
+      }
+    ]
+  },
+  {
+    "slug": "tappo-sughero",
+    "title": "Mi piace di sughero",
+    "category": "Approfondimenti",
+    "subcategory": "Cultura",
+    "excerpt": "Il dolce schiocco del cavatappi, l'annusatina al tappo. Un gesto che si tramanda da secoli, da quando Dom Pérignon inventò il tappo di sughero.",
+    "readTime": 4,
+    "image": "cork",
+    "body": [
+      {
+        "tag": "p",
+        "text": "Tutti hanno stappato prima o poi una bottiglia di vino. Un vero e proprio rito: si scappuccia la bordolese, si avvita il cavatappi, primo scatto, secondo scatto, il dolce schiocco dell'estrazione, un'annusatina — e poi si versa pregustando gli odori di un buon vino."
+      },
+      {
+        "tag": "p",
+        "text": "Forse però non tutti sanno che questo gesto si tramanda da secoli, da quando l'abate Dom Pérignon , nel XVII secolo, inventò il tappo di sughero per le sue bottiglie di champagne. La sapeva lunga lui sul vino: aveva individuato il materiale per eccellenza per la conservazione della bevanda preferita da Bacco."
+      },
+      {
+        "tag": "h3",
+        "text": "La Quercus suber"
+      },
+      {
+        "tag": "p",
+        "text": "Il nostro tappo nasce da un particolare strato organico della corteccia di una varietà di quercia detta Quercus suber , che per tutta la vita produce instancabilmente sughero, anche se periodicamente asportato. Qualcuno se n'era già accorto 5 secoli prima di Cristo, come testimoniano i rinvenimenti di anfore romane chiuse con tappi di sūbĕr ."
+      },
+      {
+        "tag": "h3",
+        "text": "Perché il sughero è insostituibile"
+      },
+      {
+        "tag": "p",
+        "text": "Grazie alla sua impermeabilità, il sughero protegge il vino dalla fuoriuscita e dalla degradazione causata dall'ossigeno. Il miglior sughero permette l'ingresso di circa 1 mg di ossigeno per anno — una quantità irrisoria ma adatta a permettere la maturazione dei grandi vini, con lo sviluppo della complessità e l'affinamento dei tannini."
+      },
+      {
+        "tag": "p",
+        "text": "L'elasticità delle cellule del sughero garantisce inoltre la compressione senza deformazione e la perfetta aderenza al collo della bottiglia. Quanta magia in un oggetto all'apparenza così semplice!"
+      }
+    ]
+  },
+  {
+    "slug": "sa-di-tappo",
+    "title": "Sa di Tappo!",
+    "category": "Curiosità",
+    "subcategory": "Difetti",
+    "excerpt": "Vi è capitato di aprire una bottiglia e sentire un odore sgradevole, ammuffito? L'8% delle bottiglie ha problemi legati al tappo. Ecco cosa succede davvero.",
+    "readTime": 5,
+    "image": "cork",
+    "body": [
+      {
+        "tag": "p",
+        "text": "Vi è capitato di aprire una bottiglia e annusando il tappo sentire un odore sgradevole, amarognolo, un tono ammuffito, un sentore di umido se non addirittura di cane bagnato? Purtroppo, quasi sicuramente anche il vino avrà qualche problema. Si stima che in media l'8% delle bottiglie abbia problemi legati allo sviluppo di parassiti nel tappo di sughero."
+      },
+      {
+        "tag": "h3",
+        "text": "Il responsabile principale: il TCA"
+      },
+      {
+        "tag": "p",
+        "text": "A volte la colpa è da imputare a un fungo, l' Armillaria mellea — il comune chiodino — che vive nelle sugherete. In presenza di umidità e di cloro (derivante da disinfettanti usati per cantine e botti), libera composti policloroanisolici come il 2,4,6-tricloroanisolo (TCA) , che interferiscono con i recettori olfattivi generando la percezione dell'odore di muffa."
+      },
+      {
+        "tag": "h3",
+        "text": "Altri responsabili"
+      },
+      {
+        "tag": "p",
+        "text": "Anche altri funghi come l' Aspergillus , il Penicillium e il Cladosporium , sempre in interazione con il cloro, degradano il sughero generando composti policlorofenolici. Fanno la loro parte anche batteri come il Rhizobium excellensis , che sviluppa guaiacolo (odore farmaceutico) e geosmina (odore di terra)."
+      },
+      {
+        "tag": "h3",
+        "text": "Come difendersi"
+      },
+      {
+        "tag": "p",
+        "text": "Ciò che possiamo fare è confidare nella professionalità dei nostri vigneron e nell'utilizzo di tappi di qualità, se non addirittura certificati TCA free. E quando riponiamo il vino in cantina, attenzione alle condizioni igienico-ambientali."
+      },
+      {
+        "tag": "p",
+        "text": "Un consiglio spassionato: Carpe diem! Se hai la fortuna di avere tra le mani una bottiglia eccellente, non aspettare l'occasione speciale per stapparla. Sarà il vino stesso che con la sua magia renderà speciale e indimenticabile l'occasione."
+      }
+    ]
+  },
+  {
+    "slug": "novello",
+    "title": "Il Novello",
+    "category": "Curiosità",
+    "subcategory": "Tipologie",
+    "excerpt": "A Siena la Contrada della Civetta gli dedica un'intera settimana di festeggiamenti. Ma cos'è davvero il vino novello?",
+    "readTime": 4,
+    "image": "grapes",
+    "body": [
+      {
+        "tag": "p",
+        "text": "Sicuramente avrete sentito parlare di novello. Le sue origini sono da ricondurre alla Francia, dove riscontra il favore del pubblico con il famoso Beaujolais Nouveau . In Italia è abbastanza diffuso, specialmente nel centro-nord: in Toscana nel mese di novembre sono famose le innumerevoli feste nei borghi. Addirittura a Siena la Contrada della Civetta dedica allo stappo del novello un'intera settimana di festeggiamenti."
+      },
+      {
+        "tag": "h3",
+        "text": "Il disciplinare"
+      },
+      {
+        "tag": "p",
+        "text": "Il disciplinare è regolato dal DM del 6 ottobre 1989, aggiornato nel 2012. La denominazione può essere attribuita solo a vini DOP e IGP con precisi requisiti. Il novello deve essere prodotto con almeno il 40% di uve che abbiano subito processi di fermentazione per macerazione carbonica . Il processo di vinificazione non deve essere inferiore a 10 giorni; la gradazione alcolica non deve essere inferiore all'11%."
+      },
+      {
+        "tag": "p",
+        "text": "Caratteristica peculiare: non può essere immesso sul mercato prima delle ore 00:01 del 30 ottobre e non oltre il 31 dicembre dell'annata di vendemmia."
+      },
+      {
+        "tag": "h3",
+        "text": "Nel bicchiere"
+      },
+      {
+        "tag": "p",
+        "text": "Un vino piacevole, giovane, fresco, morbido, con bassissima tannicità, estremamente profumato, dai sentori floreali di rosa, violetta e iris, oltre a note fruttate di lampone, gelso, fragola e mirtillo, con qualche sentore speziato di chiodi di garofano e cannella. Il colore va dal rubino al porpora."
+      },
+      {
+        "tag": "p",
+        "text": "Una raccomandazione: si consiglia la consumazione entro pochi mesi. Come diceva la zia: \"Questa è una bottiglia da bere subito… se no si fa vecchia! Portatela a casa e te la bevi con i tuoi amici.\""
+      }
+    ]
+  },
+  {
+    "slug": "curiosando-1",
+    "title": "Curiosando sul Vino — Le Origini",
+    "category": "Curiosità",
+    "subcategory": "Storia",
+    "excerpt": "Quando è nato il vino? Qual è la bottiglia più antica? E la cantina più vecchia del mondo? Un viaggio nella storia millenaria del nettare di Bacco.",
+    "readTime": 4,
+    "image": "cellar",
+    "body": [
+      {
+        "tag": "h3",
+        "text": "Quando è nato il vino?"
+      },
+      {
+        "tag": "p",
+        "text": "Le prime tracce di vino sono state individuate su anfore ritrovate negli scavi di Gadachrili Gora e Shulaveris Gora in Georgia. Gli studiosi hanno analizzato il DNA dei residui associandolo al vino e ricondotto a una datazione di 8000 anni fa , nel periodo Neolitico, quando l'uomo iniziava l'addomesticazione delle colture."
+      },
+      {
+        "tag": "h3",
+        "text": "Chi è stato il primo a bere vino in Italia?"
+      },
+      {
+        "tag": "p",
+        "text": "Le tracce più antiche di vino in Italia sono state rinvenute a Sciacca e Caltagirone, in Sicilia, dove gli archeologi hanno trovato resti di anfore datati a circa 6000 anni fa , tra la fine dell'età del Rame e l'inizio dell'età del Ferro."
+      },
+      {
+        "tag": "h3",
+        "text": "La bottiglia più antica del mondo"
+      },
+      {
+        "tag": "p",
+        "text": "Si tratta della bottiglia di Speyer , trovata nel 1867 all'interno di una tomba romana nella città tedesca omonima. Datata al 330 d.C., contiene ancora una discreta quantità di vino, misto a erbe e aromi. È conservata nel Historisches Museum der Pfalz."
+      },
+      {
+        "tag": "h3",
+        "text": "La bottiglia più cara del mondo"
+      },
+      {
+        "tag": "p",
+        "text": "Venduta il 13 ottobre 2018 a New York in un'asta di Sotheby's alla cifra di 558.000 dollari. Si tratta di una bottiglia del 1945 delle prestigiose tenute Romanée-Conti in Borgogna, della quale all'epoca erano state prodotte solo 600 esemplari."
+      },
+      {
+        "tag": "h3",
+        "text": "La cantina più vecchia del mondo"
+      },
+      {
+        "tag": "p",
+        "text": "La più antica è la Staffelter Hof in Germania, voluta da Lotario II nell'862. In Italia il primato spetta al Castello di Brolio , fondato nel 1141 dal Barone Ricasoli a Gaiole in Chianti."
+      }
+    ]
+  },
+  {
+    "slug": "curiosando-2",
+    "title": "Curiosando sul Vino — Record e Stranezze",
+    "category": "Curiosità",
+    "subcategory": "Mondo",
+    "excerpt": "La vite più antica vive a Maribor. Il vigneto più alto è in Tibet. L'uva più cara si vende in Giappone. Un giro del mondo tra primati.",
+    "readTime": 4,
+    "image": "vineyard",
+    "body": [
+      {
+        "tag": "h3",
+        "text": "La vite più antica del mondo"
+      },
+      {
+        "tag": "p",
+        "text": "Vive a Maribor, in Slovenia, dove da più di 400 anni regala i suoi preziosi frutti. È la Stara trta , che si arrampica sui muri della Casa dell'Antica Vite, un tempo cantina e oggi museo. Il diametro del fusto è di 26 cm e ancora oggi produce circa 100 kg di uva l'anno per la produzione di un vino molto ricercato, festeggiato in tutta la città."
+      },
+      {
+        "tag": "p",
+        "text": "In Italia il primato spetta alla vite altoatesina Versoaln nei Giardini di Castel Trauttmansdorff, in provincia di Bolzano: 300 m² di superficie, tronco di 32 cm di diametro, e da più di 350 anni produce circa un centinaio di bottiglie l'anno."
+      },
+      {
+        "tag": "h3",
+        "text": "Il vigneto più alto del mondo"
+      },
+      {
+        "tag": "p",
+        "text": "Nel 2018 il Guinness World Record ha certificato che il vigneto più alto del mondo si trova in Tibet, vicino Lhasa: il Pure Land & Super-high altitude vineyard si eleva a ben 3563 metri sul livello del mare ."
+      },
+      {
+        "tag": "h3",
+        "text": "L'uva più cara del mondo"
+      },
+      {
+        "tag": "p",
+        "text": "In Giappone la frutta è considerata un oggetto di culto. Il 9 luglio 2019 a Kanazawa un grappolo di uva Ruby Roman — dagli acini grassi come palline da ping pong — è stato venduto all'asta alla cifra di 1.200.000 yen, quasi 10.000 euro."
+      },
+      {
+        "tag": "h3",
+        "text": "L'uva più diffusa del mondo"
+      },
+      {
+        "tag": "p",
+        "text": "Il podio spetta al vitigno Kyoho , uva da tavola giapponese coltivata principalmente in Cina, con oltre 365.000 ettari. In seconda posizione il Cabernet Sauvignon con 340.000 ettari. In Italia il vitigno più diffuso è il Sangiovese ."
+      }
+    ]
+  },
+  {
+    "slug": "gianfranco-fino",
+    "title": "Gianfranco Fino — Primitivo e Negramaro del Salento",
+    "category": "Degustazioni",
+    "subcategory": "Puglia",
+    "excerpt": "Un confronto tra due anime del Salento: alberelli storici, viticoltura biodinamica, e vini che hanno fatto storia.",
+    "readTime": 8,
+    "image": "winemaker",
+    "body": [
+      {
+        "tag": "p",
+        "text": "Un confronto tra Primitivo e Negramaro con Gianfranco Fino, vignaiolo del Salento. Prima enologo con Gino Veronelli, oggi custode di alberelli storici: un'azienda biodinamica che coltiva viti con età media di 70 anni, con rese di 15-20 quintali per ettaro, su terreni di argilla, ferro e calcare. Viticoltura eroica in pianura."
+      },
+      {
+        "tag": "h3",
+        "text": "Rosato Metodo Tradizionale Simona Natale 2015"
+      },
+      {
+        "tag": "p",
+        "text": "Un bellissimo rosato con bollicina fine. Al naso freschezza di fragola, lampone, agrume di mandarino. Il vino è giocato su una bella acidità, finale salino. Nel tempo si hanno profumi più complessi di crostata di frutta fresca."
+      },
+      {
+        "tag": "h3",
+        "text": "Negramaro \"Jo\" 2017"
+      },
+      {
+        "tag": "p",
+        "text": "Rubino con riflessi porpora. Al naso il primo impatto è salino di ostrica e battigia, poi nota fruttata di frutto scuro giovane e arancia sanguinella. Niente confettura, nessuna sensazione zuccherina. Balsamico ed erbaceo. La salivazione somiglia a un vino bianco: snellezza, sensazione salina piacevole, tannino equilibrato, sferzata di acidità. Nel tempo: tabacco, liquirizia, colatura di olio."
+      },
+      {
+        "tag": "h3",
+        "text": "Negramaro \"Jo\" 2016"
+      },
+      {
+        "tag": "p",
+        "text": "Il colore appare più giovane del 2017. Al naso note fresche di frutto rosso, arancia, fragolina e lampone. Il tannino all'assaggio è più incisivo. Grande agilità e snellezza nonostante la struttura importante. Nel tempo al naso arriva il ferro."
+      },
+      {
+        "tag": "h3",
+        "text": "Primitivo \"Es\" 2017"
+      },
+      {
+        "tag": "p",
+        "text": "Alberelli con età media di 70 anni. Colore vivo, rubino con riflessi purpurei. Al naso: boero, una vagonata di spezie, visciole sotto spirito. L'alcol è ben gestito dalla freschezza olfattiva. Alla gustativa morbidezza e freschezza sorprendente. Tannino ben integrato. Persistenza decisa. Perfetto con il tonno."
+      },
+      {
+        "tag": "h3",
+        "text": "Primitivo Dolce \"Es più Sole\" 2017"
+      },
+      {
+        "tag": "p",
+        "text": "Raccolto con gradazione alcolica potenziale del 24%. Lunga macerazione di 8-10 giorni. Solo 1800 bottiglie l'anno. Rubino dal cuore impenetrabile. Al naso frutta, spezie, tabacco, cacao, note eteree e di mare. In bocca dolcezza con grandissima freschezza e tannino delicato. Abbinamento: pasticceria secca, formaggi erborinati e cioccolato fondente."
+      }
+    ]
+  },
+  {
+    "slug": "sagrantino-montefalco",
+    "title": "Sagrantino di Montefalco — Il Vino Sacro dell'Umbria",
+    "category": "Degustazioni",
+    "subcategory": "Umbria",
+    "excerpt": "Dai frati francescani al Guinness dei primati per i tannini: la storia millenaria del Sagrantino, vitigno autoctono di Montefalco.",
+    "readTime": 8,
+    "image": "grapes",
+    "body": [
+      {
+        "tag": "p",
+        "text": "Il Montefalco Sagrantino DOCG prende il nome dall'omonimo vitigno coltivato da secoli sulle pendici delle colline umbre. Il nome stesso rivela le origini: dalla radice latina sacer — vino sacro, vino della festa religiosa, dei momenti da ricordare nello scorrere della vita domestica."
+      },
+      {
+        "tag": "p",
+        "text": "L'attuale Sagrantino fu probabilmente portato attorno al XIV-XV secolo a Montefalco dai frati francescani di ritorno dai viaggi di predicazione in Asia Minore. La menzione più antica sulla coltivazione risale al 1549. Non c'era contadino che trascurasse di far crescere nella vigna il prezioso vitigno dai piccoli grappoli, da far passire sui graticci di canne ( camorganne ) fino a Natale."
+      },
+      {
+        "tag": "h3",
+        "text": "Il disciplinare"
+      },
+      {
+        "tag": "p",
+        "text": "La DOCG è riferita a due tipologie: Secco e Passito . Entrambi non possono essere immessi al consumo prima di almeno 33 mesi di invecchiamento, di cui almeno 12 in botti di rovere. La resa massima è di 80 quintali per ettaro. La densità minima di impianto è di 4.000 ceppi per ettaro."
+      },
+      {
+        "tag": "h3",
+        "text": "Nel bicchiere"
+      },
+      {
+        "tag": "p",
+        "text": "Il Secco presenta un colore rosso rubino intenso con riflessi violacei, tendente al granato con l'invecchiamento. Aromi persistenti di more di rovo, prugna e cuoio che si legano con la vaniglia del legno. Il gusto è possente e vellutato. Un vino da lungo invecchiamento: almeno 10-15 anni."
+      },
+      {
+        "tag": "p",
+        "text": "Il Passito ha colore rubino carico. Al naso more di rovo; al gusto è abboccato, di grande piacevolezza. Si accompagna a pasticceria da forno, crostate con marmellate di more, o formaggi pecorini molto piccanti."
+      },
+      {
+        "tag": "h3",
+        "text": "Il Montefalco Rosso DOC"
+      },
+      {
+        "tag": "p",
+        "text": "Nasce da Sangiovese 60-70% e Sagrantino 10-15%. Invecchiamento di 18 mesi (30 per la Riserva). Al naso note di frutta matura, frutti di bosco, lampone e mirtillo che si legano con la vaniglia del legno. Al palato pieno e abbastanza tannico. Capacità di invecchiamento di 5 e più anni."
+      }
+    ]
+  },
+  {
+    "slug": "terre-del-principe",
+    "title": "Terre del Principe — Pallagrello e Casavecchia",
+    "category": "Degustazioni",
+    "subcategory": "Campania",
+    "excerpt": "Pallagrello e Casavecchia: due vitigni quasi scomparsi che hanno cambiato la vita di Peppe e Manuela Mancini.",
+    "readTime": 9,
+    "image": "winemaker",
+    "body": [
+      {
+        "tag": "p",
+        "text": "\"Pallagrello e Casavecchia piccole grandi uve che hanno cambiato le nostre vite, come noi abbiamo cambiato il loro destino\": questa è la frase che campeggia nel sito dell'azienda vitivinicola biologica Terre del Principe."
+      },
+      {
+        "tag": "p",
+        "text": "Negli anni '90 Peppe Mancini, già avvocato affermato, sente il richiamo della vigna e studia alcune piante di oltre 150 anni presenti nella proprietà familiare. Nasce una collaborazione con la Facoltà di Agraria dell'Università Federico II di Napoli: le piante sono proprio di Pallagrello e Casavecchia. Nel 2003 nasce \"Terre del Principe\"."
+      },
+      {
+        "tag": "h3",
+        "text": "Le Sèrole 2018 — 100% Pallagrello bianco"
+      },
+      {
+        "tag": "p",
+        "text": "Giallo paglierino con brillantezza quasi aurea. Al naso: tiglio, ginestra, fieno, mela, ananas, frutta esotica, pesca, albicocca, timo, citronella, miele, propoli e cera d'api. All'assaggio caldo e morbido, decisamente sapido. Il percorso in bocca parte dalla morbidezza e chiude con un finale sapido. Lo Chardonnay è il punto di riferimento più vicino, ma il Pallagrello ha una personalità tutta sua."
+      },
+      {
+        "tag": "h3",
+        "text": "Le Sèrole 2011 — 100% Pallagrello bianco"
+      },
+      {
+        "tag": "p",
+        "text": "Colore dorato, carico, brillante. Al naso: miele, cera d'api, ginestra, mimosa, albicocca, erbe aromatiche, pepe, zenzero, cedro candito, vaniglia. Acidità ancora perfettamente viva. Finale ammandorlato. Abbinamento: tartufo e crostacei crudi."
+      },
+      {
+        "tag": "h3",
+        "text": "Ambruco 2016 — 100% Pallagrello nero"
+      },
+      {
+        "tag": "p",
+        "text": "Il nome deriva da \"vitis labrusca\". Porpora impenetrabile. Al naso: mirtillo, mora, marasca, pepe nero, chiodi di garofano, pansé, mammola, cuoio, tabacco, scorza d'arancia, china, nota ferrosa. Tannino ancora da domare, ma buon equilibrio tra freschezza e tannicità."
+      },
+      {
+        "tag": "h3",
+        "text": "Ambruco 2009 — 100% Pallagrello nero"
+      },
+      {
+        "tag": "p",
+        "text": "Toni evolutivi di corteccia e sottobosco, caramella mou, crostata di more, liquirizia, cuoio, erbe officinali, lavanda, timo, cacao. Profumi che si disvelano lentamente marcando la grande eleganza. All'assaggio rugginoso e ferroso. Tannino equilibrato. Lungo potenziale evolutivo."
+      },
+      {
+        "tag": "h3",
+        "text": "Centomoggia 2015 — 100% Casavecchia"
+      },
+      {
+        "tag": "p",
+        "text": "Porpora intenso, impenetrabile. Succosità di frutto nero, more, ribes, marasca, amarena, sottobosco, mirto, ginepro, cioccolato, cacao, pepe. Tannino molto presente ma ben accompagnato da succosa freschezza. Equilibrio acido-tannico perfetto."
+      },
+      {
+        "tag": "h3",
+        "text": "Piancastelli 2014 — Pallagrello nero e Casavecchia"
+      },
+      {
+        "tag": "p",
+        "text": "Il vino di punta dell'azienda, con nuova etichetta d'autore ogni anno. Profumi intensi di crostata di fragole, pepe, sandalo, frutta candita, cola, liquirizia, bergamotto. Morbidezza ben gestita, tannino elegante. Complesso, sinuoso al palato. L'appassimento del 10% delle uve dà una marcia in più: morbidezza e grande eleganza."
+      }
+    ]
+  },
+  {
+    "slug": "valdelsa-1999",
+    "title": "Capriccio Divino — Sei Vini del 1999",
+    "category": "Degustazioni",
+    "subcategory": "Verticale",
+    "excerpt": "Sei vini pluripremiati del millesimo 1999, degustati nel Castello di Oliveto a Castelfiorentino. Un'esperienza unica.",
+    "readTime": 8,
+    "image": "cellar",
+    "body": [
+      {
+        "tag": "p",
+        "text": "Con curiosità ed interesse abbiamo partecipato a Capriccio Divino , annuale appuntamento dell'ASEV in collaborazione con l'AIS delegazione Valdelsa, nella caratteristica cornice del Castello di Oliveto a Castelfiorentino. Per festeggiare i vent'anni della Delegazione Val d'Elsa è stata organizzata una degustazione di sei vini del millesimo 1999."
+      },
+      {
+        "tag": "h3",
+        "text": "Millanni 1999, Guicciardini Strozzi"
+      },
+      {
+        "tag": "p",
+        "text": "Magnum di Sangiovese 60%, Cabernet Sauvignon 30% e Merlot 10%. Granato profondo e quasi impenetrabile. Al naso: pepe e cannella, liquirizia, rabarbaro e cuoio, sentori animali di pelliccia, arancia candita e ciliegia sotto spirito. Vino appena oltre la maturità, in assoluto equilibrio. Ideale con selvaggina da pelo e piatti di importante struttura."
+      },
+      {
+        "tag": "h3",
+        "text": "Luenzo 1999, Cesani di San Gimignano"
+      },
+      {
+        "tag": "p",
+        "text": "90% Sangiovese e 10% Colorino, in un luogo definito \"mistico, dove si respira spiritualità\". Profumi minerali di grafite e polvere da sparo, china, sentori ematici, terra bagnata e speziatura dolce. Al gusto avvolgente e caldo, nel pieno della sua maturità. Perfetto con il peposo dell'Impruneta."
+      },
+      {
+        "tag": "h3",
+        "text": "Il Poggio 1999, Castello di Monsanto"
+      },
+      {
+        "tag": "p",
+        "text": "Il primo Chianti Classico Cru, dal vigneto dal quale nel 1962 ha preso il nome. Granato scarico ma vividissimo. Sottobosco, liquirizia, cuoio e ciliegia. Al gusto stupisce per freschezza e tannicità che potrebbero far pensare a un vino molto più giovane. Perfetto con formaggi a lunga stagionatura."
+      },
+      {
+        "tag": "h3",
+        "text": "Vigna Schiena d'Asino, Brunello DOCG Mastrojanni"
+      },
+      {
+        "tag": "p",
+        "text": "Il primo cru dell'azienda, prodotto in un vigneto di solo un ettaro. Rosso granato scuro e quasi impenetrabile. Al naso forti sentori di caramello fanno pensare a una sofferenza della bottiglia, confermata dall'asciuttezza eccessiva sul finale. Le sensazioni gustative di grande finezza confermano comunque il grande lignaggio."
+      },
+      {
+        "tag": "h3",
+        "text": "Ripa delle More IGT, Castello Vicchiomaggio"
+      },
+      {
+        "tag": "p",
+        "text": "Sangiovese 50%, Cabernet Sauvignon 30% e Merlot 20%. Granato carico, impenetrabile. All'olfatto: cuoio, polvere da sparo, tamarindo, amarena e mora. Probabilmente il vino più preciso ed equilibrato dell'intera degustazione: un vino da meditazione."
+      },
+      {
+        "tag": "h3",
+        "text": "Campora Rosso IGT, Casale Falchini"
+      },
+      {
+        "tag": "p",
+        "text": "Prodotto con la regia di Giacomo Tachis, quasi completamente da Cabernet Sauvignon con 5% di Merlot. I sentori esprimono tutta la lunga evoluzione: china, frutta matura, peperone verde, pepe nero e nota ematica. Stupisce l'eleganza del tannino ancora ben presente. Perfetto con carni rosse alla brace."
+      }
+    ]
+  }
+]
